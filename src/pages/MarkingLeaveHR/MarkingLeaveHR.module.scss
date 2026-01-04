@@ -1,0 +1,66 @@
+$fullDayLeave: #009688;
+$halfDayLeave: #ff923b;
+
+.message {
+  padding: 10px;
+  border: none;
+  background: #f1f3f4 !important;
+}
+
+.applyLeaveHeading {
+  margin: 15px 0px 10px 0px;
+  color: #757575;
+}
+
+.leaveTableHeading {
+  margin: 25px 0px 10px 0px;
+  color: #757575;
+}
+
+.alert {
+  margin-top: 10px;
+}
+
+//   .halfDayMarker{
+//     display: inline-block;
+//     background-color: $halfDayLeave;
+//     border-radius: 100%;
+//     margin-left: 30px;
+//     height: 12px;
+//     width: 12px;
+//     vertical-align: middle;
+//   }
+
+//   .fullDayMarker{
+//    display: inline-block;
+//    background-color: $fullDayLeave;
+//    border-radius: 100%;
+//    margin-left: 30px;
+//    height: 12px;
+//    width: 12px;
+//    vertical-align: middle;
+//  }
+
+.leaveLegendHolder {
+  margin-top: 24px;
+  .leaveLegendTitle {
+    margin-bottom: 12px;
+  }
+  aside {
+    margin-bottom: 7px;
+    .fullDayLegend {
+      color: $fullDayLeave;
+      vertical-align: middle;
+      margin-right: 7px;
+    }
+    .halfDayLegend {
+      color: $halfDayLeave;
+      vertical-align: middle;
+      margin-right: 7px;
+    }
+  }
+}
+
+.alert {
+  padding-bottom: 20px;
+}

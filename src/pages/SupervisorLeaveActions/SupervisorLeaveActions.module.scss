@@ -1,0 +1,23 @@
+.content {
+  width: 560px;
+  padding: 55px 0 25px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: scroll;
+  background: #c3cbec; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d7fcf5, #c9d2ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #def0ec,
+    #a9d7ec
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

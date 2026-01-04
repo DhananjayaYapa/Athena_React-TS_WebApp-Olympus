@@ -1,0 +1,45 @@
+$fullDayLeave: #009688;
+$halfDayLeave: #ff923b;
+
+.coWorker {
+  text-transform: capitalize;
+}
+
+.statusAppliedSpan {
+  background-color: #fff6a5;
+  border: 1px solid #ffee4b;
+  text-align: center;
+  width: fit-content;
+  display: inline;
+  padding: 2px;
+}
+
+.halfDayMarker {
+  display: inline-block;
+  background-color: $halfDayLeave;
+  border-radius: 100%;
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+}
+
+.fullDayMarker {
+  display: inline-block;
+  background-color: $fullDayLeave;
+  border-radius: 100%;
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+}
+
+.disableIcon {
+  color: #b50430;
+  cursor: pointer;
+}
+
+.coworkerTooltip {
+  margin: 0px;
+  font-size: 13px;
+}

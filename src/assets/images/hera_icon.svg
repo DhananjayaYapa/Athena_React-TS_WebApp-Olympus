@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.321" height="40.064" viewBox="0 0 43.321 40.064">
+  <g id="Group_145" data-name="Group 145" transform="translate(3372.15 -532.208)">
+    <g id="Group_141" data-name="Group 141" transform="translate(-3371.25 533.108)">
+      <path id="Subtraction_1" data-name="Subtraction 1" d="M39.5,38.14H2.025A2.025,2.025,0,0,1,0,36.115V11.809A2.025,2.025,0,0,1,2.025,9.784H16.011v1.738a2.025,2.025,0,0,0,2.025,2.025h4.557a2.025,2.025,0,0,0,2.025-2.025V9.784H39.5a2.025,2.025,0,0,1,2.025,2.025V36.115A2.025,2.025,0,0,1,39.5,38.14Z" transform="translate(0 0.124)" fill="none" stroke="#fff" stroke-width="1.8"/>
+      <path id="Union_1" data-name="Union 1" d="M2.025,38.264A2.025,2.025,0,0,1,0,36.239V11.934A2.025,2.025,0,0,1,2.025,9.908H16.011V2.025A2.025,2.025,0,0,1,18.036,0h4.557a2.025,2.025,0,0,1,2.025,2.025V9.908H39.5a2.025,2.025,0,0,1,2.025,2.025V36.239A2.025,2.025,0,0,1,39.5,38.264Z" fill="none" stroke="#fff" stroke-width="1.8"/>
+    </g>
+    <g id="Group_144" data-name="Group 144" transform="translate(-3367.073 549.697)">
+      <g id="Group_143" data-name="Group 143" transform="translate(0 0.099)">
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="3.544" cy="3.544" r="3.544" transform="translate(5.379)" fill="none" stroke="#fff" stroke-width="1.8"/>
+        <path id="Rectangle_88" data-name="Rectangle 88" d="M7.162,0h2.892a7.162,7.162,0,0,1,7.162,7.162h0a.94.94,0,0,1-.94.94H.94A.94.94,0,0,1,0,7.162H0A7.162,7.162,0,0,1,7.162,0Z" transform="translate(0 9.516)" fill="none" stroke="#fff" stroke-width="1.8"/>
+      </g>
+      <g id="Group_142" data-name="Group 142" transform="translate(22.027)">
+        <line id="Line_79" data-name="Line 79" x2="11.14" fill="none" stroke="#fff" stroke-width="1.8"/>
+        <line id="Line_80" data-name="Line 80" x2="11.14" transform="translate(0 4.051)" fill="none" stroke="#fff" stroke-width="1.8"/>
+        <line id="Line_81" data-name="Line 81" x2="8.102" transform="translate(0 8.102)" fill="none" stroke="#fff" stroke-width="1.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

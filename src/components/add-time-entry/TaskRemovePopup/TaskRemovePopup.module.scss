@@ -1,0 +1,44 @@
+@use '../../../assets/theme/constants.scss' as *;
+
+.demo {
+  margin-top: -15px !important;
+  padding: 0 !important;
+  overflow: scroll;
+  max-height: 350px;
+}
+
+.summaryPopUp {
+  width: 1200px !important;
+}
+
+.summaryDesc {
+  font-size: 14px;
+}
+
+.leaveCountSummaryTitle {
+  margin-top: -10px !important;
+}
+
+.summaryPopUpTitle h3 {
+  padding: 0 !important;
+  margin: -5px 0 -5px 0 !important;
+}
+
+.taskItem {
+  border-bottom: 0.5px solid rgb(197, 197, 197);
+}
+
+.noData {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.delete {
+  color: $red;
+  font-size: 18px !important;
+}
+
+.alertHolder {
+  margin-top: -15px;
+}

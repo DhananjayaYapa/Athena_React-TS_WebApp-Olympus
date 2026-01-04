@@ -1,0 +1,27 @@
+// .form{
+//   margin: 30px 0px 30px 0px
+// }
+
+.radio {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -16px;
+}
+
+.leaveInfoLabels {
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+}
+
+.leaveNoteTextField {
+  margin-top: 12px;
+}
+
+.selectCoworkerSearch {
+  width: 200px;
+}
+
+.leaveDatePicker {
+  width: 200px;
+}

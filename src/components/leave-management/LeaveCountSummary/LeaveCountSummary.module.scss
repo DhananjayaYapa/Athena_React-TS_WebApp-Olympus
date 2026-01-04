@@ -1,0 +1,91 @@
+@use '../../../assets/theme/constants.scss' as *;
+
+.leaveCount {
+  float: left;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: auto;
+  border-left: 1px solid #ccc;
+  padding: 10px 10px 10px 10px;
+  font-weight: 400;
+}
+
+.leaveCount h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 !important;
+}
+
+.leaveCount:first-child {
+  border: none !important;
+}
+
+.leaveCount-available {
+  border: none !important;
+}
+
+.leaveSummaryDetails {
+  width: 250px;
+  background-color: #fff;
+  box-shadow: none !important;
+}
+
+.clearfix:after {
+  content: '';
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.loading {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.summaryTitle {
+  width: 250px;
+  margin-top: -5px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.available {
+  color: #2ecc71;
+}
+
+.approved {
+  color: #1877f2;
+}
+
+.applied {
+  color: #f39c12;
+}
+
+.chart {
+  height: 218px;
+}
+
+.noData {
+  margin: 30% auto 0 auto !important;
+  text-align: center;
+}
+
+.summaryPopUp {
+  width: 1200px !important;
+}
+
+.summaryDesc {
+  font-size: 14px;
+}
+
+.leaveCountSummaryTitle {
+  margin-top: -10px !important;
+}
+
+.summaryPopUpTitle h3 {
+  padding: 0 !important;
+  margin: -5px 0 -5px 0 !important;
+}
