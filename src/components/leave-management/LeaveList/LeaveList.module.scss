@@ -1,0 +1,97 @@
+@use '../../../assets/theme/constants.scss' as *;
+
+$fullDayLeave: #009688;
+$halfDayLeave: #ff923b;
+
+.leaveListTableHolder {
+  position: relative;
+}
+
+.acceptAction {
+  margin-right: 4px !important;
+  color: $green !important;
+  cursor: pointer !important;
+}
+
+.rejectAction {
+  color: $red !important;
+  cursor: pointer !important;
+}
+
+.leaveSummaryAction {
+  margin-right: 4px !important;
+  color: $primary !important;
+  cursor: pointer !important;
+}
+
+.isUpdating {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+}
+.show {
+  display: flex;
+}
+.overdueHolder {
+  padding-left: 12px !important;
+}
+.overdue {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: $red;
+  }
+}
+.overdueRow {
+  background: rgba(255, 0, 0, 0.1) !important;
+}
+.legend {
+  text-align: right;
+  padding-bottom: 14px;
+}
+.block {
+  display: inline-block;
+  margin-left: 7px;
+}
+.icon {
+  display: inline-block !important;
+  width: 15px;
+  height: 15px;
+  border-radius: 20%;
+  background-color: $red;
+  vertical-align: middle;
+}
+
+.disableIcon {
+  color: #b50430;
+  cursor: pointer;
+}
+
+.halfDayMarker {
+  display: inline-block;
+  background-color: $halfDayLeave;
+  border-radius: 100%;
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+}
+
+.fullDayMarker {
+  display: inline-block;
+  background-color: $fullDayLeave;
+  border-radius: 100%;
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+}

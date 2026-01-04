@@ -1,0 +1,8 @@
+export { default as acenturaLogo } from './acentura_logo.svg'
+export { default as loginBg } from './login.jpg'
+export { default as microsoftLogo } from './microsoft-logo.png'
+export { default as athenaIcon } from './calendar.svg'
+export { default as hermesIcon } from './ticket.svg'
+export { default as allAppsIcon } from './dashboard.svg'
+export { default as heraIcon } from './hera_icon.svg'
+export { default as demeterIcon } from './demeter_icon.svg'
