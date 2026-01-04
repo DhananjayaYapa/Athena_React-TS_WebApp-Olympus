@@ -1,4 +1,4 @@
-# Olympus Athena | Acentura
+# Olympus Athena
 
 # React + TypeScript + Vite
 
