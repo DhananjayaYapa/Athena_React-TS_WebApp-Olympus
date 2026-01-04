@@ -1,0 +1,77 @@
+@use "../../assets/theme/constants.scss" as *;
+
+.container {
+  background-color: #f6f7fb;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  .login {
+    background-color: #fff;
+    height: 440px;
+    box-shadow: 0 15px 24px 0 rgba(137, 138, 154, 0.15);
+    .loginRandomImage {
+      position: relative;
+      background: url('../../assets/images/login.jpg') no-repeat bottom #f4f4f4;
+      color: #fff;
+      width: 380px;
+      &:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-image: url(https://source.unsplash.com/random?technology);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+    .loginActions {
+      width: 480px;
+      padding: 48px;
+      position: relative;
+      @media all and (max-width: 540px) {
+        width: auto;
+      }
+      .logo {
+        max-width: 150px;
+      }
+      h1 {
+        vertical-align: middle;
+        margin: 8px 0;
+        font-family: $primaryFont;
+        font-size: 24px;
+        font-weight: 400;
+      }
+      p {
+        line-height: 24px;
+        font-size: 14px;
+        margin-top: 8px;
+      }
+      .loginNotification {
+        margin-top: 60px;
+        p {
+          font-size: 13px;
+          display: block;
+          padding: 3px 8px;
+          a {
+            text-decoration: underline !important;
+          }
+        }
+        .isAuthorizing {
+          background: rgba(0, 150, 255, 0.3);
+        }
+        .error {
+          padding: 4px 8px;
+          background: rgba(255, 0, 0, 0.3);
+        }
+      }
+      .loginFooter {
+        position: absolute;
+        bottom: 48px;
+        left: 48px;
+      }
+    }
+  }
+}

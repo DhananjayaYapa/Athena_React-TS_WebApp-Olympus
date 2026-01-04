@@ -1,0 +1,32 @@
+@use "../../../../assets/theme/constants.scss" as *;
+
+.tableContainer {
+  overflow: scroll !important;
+  width: max-content !important;
+}
+
+.status {
+  padding: 0px 5px;
+  display: inline-block;
+  border-radius: 3px;
+  text-transform: lowercase;
+
+  &.completed {
+    background: rgba(86, 239, 25, 0.3);
+    border: 1px solid $green;
+  }
+
+  &.in-progress {
+    background: #ffbf00;
+    border: 1px solid $accent;
+  }
+
+  &.error {
+    background: rgba(255, 0, 0, 0.3);
+    border: 1px solid $red;
+  }
+}
+
+.status:first-letter {
+  text-transform: capitalize;
+}

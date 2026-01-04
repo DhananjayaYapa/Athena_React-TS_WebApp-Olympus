@@ -1,0 +1,25 @@
+@use '../../../assets/theme/constants.scss' as *;
+
+.loginBtn {
+  margin-top: 14px;
+  margin-bottom: 48px;
+}
+
+.microsoftLoginBtn {
+  @include transition(ease all 0.4s);
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  &:hover {
+    @include transition(ease all 0.4s);
+    background: whitesmoke;
+  }
+  img {
+    display: inline-block;
+    max-width: 28px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+}
